@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kablammo&display=swap" rel="stylesheet">
+
+    <!-- FONTAWESOME -->
+    <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+
+    <!-- JS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <title>Hazbin Hotel</title>
+</head>
+
+<body>
+    <!-- REGISTRATION MODAL -->
+    <div class="modal" id="Bienvenido">
+        <div class="modal-content">
+            <span class="close"><i class="fa-solid fa-xmark"></i></span>
+            <img src="img/Alastor.webp" alt="">
+            <div class="modal_title"><span class="title_pink">¡Bienvenido!</span><br /> a mi
+                hotel</div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div data-aos="fade-down" class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo"><img src="img/LoGo.png" alt="loGo"></div>
+                <div class="nav_item" id="Hogar">Hogar</div>
+                <a href="#" class="nav_item">Sobre nosotros</a>
+                <a href="#" class="nav_item">Números y precios</a>
+                <a href="#" class="nav_item">Entretenimiento</a>
+                <a href="#" class="nav_item">Contactos</a>
+                <a href="#" class="btn">Reservar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- INTRO -->
+    <div class="intro">
+        <div class="container">
+            <div data-aos="fade-right" class="inner_intro">
+                <div class="intro_title">Hazbin Hotel</div>
+                <div class="intro_subtitle">Si que todos pueden cambiar</br> y ahora lo van a ver</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION RESERVAR -->
+    <div data-aos="fade-up" class="section">
+        <div class="container">
+            <div class="search_form">
+                <div class="form_group">
+                    <label for="check-in">Registrarse</label>
+                    <div class="input_container">
+                        <input type="text" id="check-in" placeholder="DD MM YYYY">
+                        <i class="fa-regular fa-calendar"></i>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="check-out">Partida</label>
+                    <div class="input_container">
+                        <input type="text" id="check-out" placeholder="DD MM YYYY">
+                        <i class="fa-regular fa-calendar"></i>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="adults">Adultos</label>
+                    <div class="custom-number">
+                        <input type="number" id="adults" value="1" min="1">
+                        <div class="arrow up"></div>
+                        <div class="arrow down"></div>
+                    </div>
+                </div>
+                <div class="form_group">
+                    <label for="children">Niños</label>
+                    <div class="custom-number">
+                        <input type="number" id="children" value="0" min="0">
+                        <div class="arrow up"></div>
+                        <div class="arrow down"></div>
+                    </div>
+                </div>
+                <a href="#" class="btn">Recoger un número</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION PERSONAL -->
+    <div data-aos="fade-up" class="section">
+        <div class="container">
+            <div data-aos="fade-up" class="section_title">Nuestro personal</div>
+            <div data-aos="fade-up" class="inner_section section_personal">
+                <div class="card">
+                    <p>Me nama Nifty</p>
+                    <div class="card_image" style="background-image: url('img/Niffty.png');"></div>
+                </div>
+                <div class="card">
+                    <p>¿Que hago aqui?</p>
+                    <div class="card_image" style="background-image: url('img/Husk.png');"></div>
+                </div>
+                <div class="card">
+                    <p>Si quieres estar acanto<br /> ya sabes que hacer</p>
+                    <div class="card_image" style="background-image: url('img/Alastor.png');"></div>
+                </div>
+            </div>
+            <a data-aos="fade-up" href="#" class="btn btn_personal">Más sobre nosotros</a>
+        </div>
+    </div>
+
+    <!-- SECTION OPINIONES -->
+    <div class="section section_opinion">
+        <div class="container">
+            <div data-aos="fade-up" class="section_title">Opiniones de nuestros huéspedes</div>
+            <div data-aos="fade-up" class="section_subtitle">¿Te quieres redimir?<br />Te puedo convencer pues se me da
+                muy bien</div>
+            <div data-aos="fade-up" class="inner_section">
+                <div class="card opinion_card">
+                    <p class="card_title">Angel Dust</p>
+                    <p class="card_text">No hay nada mejor que un Angel que te haga subir al cielo</p>
+                    <div class="card_image" style="background-image: url('img/AngelDust.png');"></div>
+                </div>
+                <div class="card opinion_card">
+                    <p class="card_title">Sir Pentious</p>
+                    <p class="card_text">¿Dónde están mis huevos?</p>
+                    <div class="card_image" style="background-image: url('img/SerPentius.png');"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GALERIA -->
+    <div data-aos="fade-up" class="section">
+        <div class="container">
+            <div data-aos="fade-up" class="section_title">Galería</div>
+            <div data-aos="fade-up" class="inner_section">
+                <div class="gallery">
+                    <div class="item item-1"><img src="img/img1.png" alt="Image 1"></div>
+                    <div class="item item-2"><img src="img/img2.png" alt="Image 2"></div>
+                    <div class="item item-3"><img src="img/img3.png" alt="Image 3"></div>
+                    <div class="item item-4"><img src="img/img4.png" alt="Image 4"></div>
+                    <div class="item item-5"><img src="img/img5.png" alt="Image 5"></div>
+                    <div class="item item-6"><img src="img/img6.png" alt="Image 6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div data-aos="fade-left" class="inner_footer">
+                <div class="reserva">
+                    <div class="footer_title">Reserva</div>
+                    <div class="footer_text">1-800-000-0000</div>
+                </div>
+                <div class="sociales">
+                    <div class="footer_title">Estamos en las redes sociales</div>
+                    <div class="footer_text">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,12 @@
 AOS.init();
 
 $(document).ready(function () {
+    // Бургер-меню
+    $('.burger-menu').click(function () {
+        $(this).toggleClass('active');
+        $('.nav-links').toggleClass('active');
+    });
+
     // Функція відкриття модального вікна
     function openModal(modalId) {
         const modal = document.getElementById(modalId);

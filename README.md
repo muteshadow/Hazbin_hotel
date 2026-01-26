@@ -2,13 +2,18 @@
 
 Proyecto académico de diseño y maquetación web inspirado en la serie *Hazbin Hotel*.
 
-![Hazbin Hotel Landing Page](./img/Hazbin%20hotel%20preview.png)
+<p align="center">
+  <img src="./img/Hazbin%20hotel%20preview.png" width="480" alt="Hazbin Hotel Preview">
+</p>
 
-<!-- 🔗 **Demo en vivo:**  
-https://muteshadow.github.io/Hazbin_hotel/ -->
-
-🔗 **Ver proyecto en Behance:**  
-https://www.behance.net/gallery/215444487/Diseno-de-pagina-para-Hazbin-Hotel
+<p align="center">
+  <a href="https://muteshadow.github.io/Hazbin_hotel/">
+    <img src="https://img.shields.io/badge/Live_Demo-4CAF50?style=for-the-badge&logo=google-chrome&logoColor=white" alt="🌐 Live Demo">
+  </a>
+  <a href="https://www.behance.net/gallery/215444487/Diseno-de-pagina-para-Hazbin-Hotel">
+    <img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white" alt="Behance">
+  </a>
+</p>
 
 ## 🛠 Tecnologías
 - HTML5  
